@@ -1,0 +1,12 @@
+From: Raquel Prado <raquel@soe.ucsc.edu>
+
+The attached file eeg_F3.txt contains the EEG series plotted in Figure
+1.1 of my book. I have EEG series for mored channels for a given
+subject so I'll send you those once I refresh my mind on how the data
+is formatted (it's been a few years since I have looked at the
+original files...). BTW, this is the sub-sampled data but the larger
+original +25,000 observations at the 256Hz sampling rate is also
+available (not sure if I have this same channel/subject for the raw
+data but I have other channels/subjects).
+
+
