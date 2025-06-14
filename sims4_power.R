@@ -1,7 +1,7 @@
 ## ======================================================================
 ## Script: sim4_power.R
 ## Purpose: Calculate power for test of stationarity described in 
-## Section 4 for and AR(1) process
+## Section 4 for an LSB-AR(1) process
 ## ======================================================================
 
 source("functions/LSB_links.R")

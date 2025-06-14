@@ -4,7 +4,7 @@
 ## Purpose: Plot choices of N for different T
 ## ======================================================================
 
-pdf(file="figures/Figure3_NT_plot.pdf", width=4.5, height=2.5)
+pdf(file="figures/Figure3_NT_plot.pdf", width=5, height=2.5)
 
 par(mfrow=c(1,1), cex=0.65, mar=c(3,3,1,0.5), mgp=c(1.7,0.5,0), bty="L")
 

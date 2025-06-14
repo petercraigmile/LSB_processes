@@ -82,7 +82,7 @@ facetcol = cut(t(zfacet), nbcol)
 fd.X <- poly.basis(N, orthogonal = FALSE, normalized = FALSE)
 
 # Specify basis parameters
-fd.beta <- c(0.1,2)
+fd.beta <- c(0.1,2.5)
 
 # Specify variance of the process
 fd.sig.sq <- 1
@@ -118,10 +118,10 @@ facetcol.fd = cut(t(zfacet.fd), nbcol)
 ## Plot Figure 1
 ## ======================================================================
 
-pdf("figures/Figure1_ar2fdsim.pdf", height = 5, width = 8)
+pdf("figures/Figure1_ar2fdsim.pdf", height = 4, width = 6.3)
 
-par(mfrow=c(2,2), mar=c(3.1,3.1,1,0.5), mgp=c(1.8,0.5,0),
-    bty="L", oma = c(0,0,1,0))
+par(mfrow=c(2,2), mar=c(3,3.1,0.8,0.5), mgp=c(1.7,0.5,0),
+    bty="L", oma = c(0,0,0.2,0), cex=0.5)
 
 persp(
   2 * pi * fs,
@@ -162,7 +162,7 @@ plot(
   y = phi.21,
   type = "l",
   xlab = "Rescaled time",
-  ylab = "",
+  ylab = expression(phi[pj](u)),
   main = "(c)",
   bty = "L",
   cex = 0.5,
@@ -180,9 +180,7 @@ plot(
   y = the.ds,
   ylim = c(0, .5),
   xlab = "Rescaled time",
-  ylab = ""
-  #, xlab = "Rescaled time", ylab = "LRD curve"
-  ,
+  ylab = expression(delta(u)),
   type = "l",
   main = "(d)",
   bty = "L",
